@@ -76,7 +76,12 @@ For icons in the leaderboard
 ```sh
 npm install lucide-react
 ```
+## Step 5: Install React-Calendar (for calendar functionality)
+To display and manage dates:
 
+```sh
+npm install react-calendar
+```
 ## Step 6: Run the Project
 Start your development server:
 
