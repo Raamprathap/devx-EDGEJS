@@ -70,7 +70,14 @@ npm install react-router-dom
 ```sh
 npm install @shadcn/ui
 ```
-## Step 5: Run the Project
+## Step 5: Install lucide-react
+For icons in the leaderboard
+
+```sh
+npm install lucide-react
+```
+
+## Step 6: Run the Project
 Start your development server:
 
 ```sh
