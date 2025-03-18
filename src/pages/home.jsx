@@ -4,14 +4,14 @@ import "animate.css";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-black">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-900 to-black p-6">
       {/* Navbar */}
       <nav className=" p-4 shadow-md fixed w-full top-0">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-white text-2xl font-bold">MyApp</h1>
+          <h1 className="text-white text-2xl font-bold">HabitQuest</h1>
           <ul className="flex space-x-6">
             <li>
-              <a href="/profile">Profile</a>
+              <a href="/profile" className="text-white hidden">Profile</a>
             </li>
             <li>
               <button
@@ -38,10 +38,10 @@ const Home = () => {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center flex-grow text-center px-6 py-32">
         <h1 className="text-5xl sm:text-6xl font-extrabold text-white leading-tight">
-          Welcome to <span className="text-blue-600">MyApp</span>
+          Welcome to <span className="text-blue-600">HabitQuest</span>
         </h1>
         <p className="text-gray-600 mt-4 text-lg sm:text-xl max-w-2xl">
-          Build amazing web applications with ease and efficiency.
+          <b>HabitQuest</b> is a gamified habit-tracking web app that transforms daily routines into a fun and rewarding experience. Users can log habits, track progress, and earn points, badges, and streaks for consistency. With an engaging and interactive UI, HabitQuest keeps motivation high by turning self-improvement into a game. Stay on track, level up, and build better habits effortlessly! 🚀🎯
         </p>
         <button className="animate__animated animate__rubberBand mt-6 bg-blue-600 text-white px-8 py-3 text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition transform hover:scale-105 duration-200">
           Get Started
