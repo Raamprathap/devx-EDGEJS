@@ -82,7 +82,14 @@ To display and manage dates:
 ```sh
 npm install react-calendar
 ```
-## Step 6: Run the Project
+## Step 6:Install React-Icons (for additional icons)
+To use more icons in the project:
+
+```sh
+npm install react-icons
+```
+
+## Step 7: Run the Project
 Start your development server:
 
 ```sh
