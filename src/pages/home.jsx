@@ -1,4 +1,5 @@
 import React from "react";
+import 'animate.css';
 
 const Home = () => {
   return (
@@ -35,7 +36,7 @@ const Home = () => {
         <p className="text-gray-600 mt-4 text-lg sm:text-xl max-w-2xl">
           Build amazing web applications with ease and efficiency.
         </p>
-        <button className="mt-6 bg-blue-600 text-white px-8 py-3 text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition transform hover:scale-105 duration-200">
+        <button className="animate__animated animate__rubberBand mt-6 bg-blue-600 text-white px-8 py-3 text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transition transform hover:scale-105 duration-200">
           Get Started
         </button>
       </section>
