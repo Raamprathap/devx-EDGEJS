@@ -88,8 +88,14 @@ To use more icons in the project:
 ```sh
 npm install react-icons
 ```
+## Step 8:Install Axios (for HTTP requests)
+To make API requests:
 
-## Step 8: Run the Project
+```sh
+npm install axios
+```
+
+## Step 9: Run the Project
 Start your development server:
 
 ```sh
